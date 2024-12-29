@@ -1,0 +1,150 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+.header {
+  padding: 1.4rem 0 0.4rem;
+  background-color: rgb(240, 240, 240);
+}
+
+.header h2 {
+  color: #ffa500;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header p {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.controls {
+  background-color: white;
+  margin-bottom: 1.5rem;
+  padding: 2rem 0 2rem;
+}
+
+.search-input {
+  width: 55%;
+  margin: 0 auto 2rem;
+  border-radius: 3rem;
+  background-color: rgb(250, 246, 246);
+  height: 3rem;
+  font-size: 1.2rem;
+  border: 0.1rem solid rgb(250, 246, 246);
+  outline: none;
+}
+
+.search-input:hover,
+.search-input:focus {
+  box-shadow: 0 0 0.1rem 0.1rem rgb(236, 230, 230);
+  background: rgb(250, 246, 246);
+  outline: none;
+  border: none;
+  color: #ffa500;
+  font-weight: 500;
+}
+
+.buttons {
+  text-align: center;
+  position: relative;
+  right: 5%;
+}
+
+.buttons div {
+  display: inline-block;
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+.buttons div button {
+  background-color: #ffa500;
+  width: 11rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem;
+  border: none;
+  text-align: center;
+  border-radius: 3rem;
+}
+
+.stats i {
+  font-size: 3.6rem;
+  color: #ffa500;
+  margin: auto 1rem;
+  position: absolute;
+  top: 10%;
+}
+
+.country {
+  margin-bottom: 15px;
+}
+
+.country .card-body {
+  height: 180px;
+  overflow: hidden;
+}
+
+.country img {
+  width: 160px;
+  height: 100px;
+  margin: 20px auto 15px;
+  padding: px 0 10px;
+}
+
+.country .card-title {
+  color: #ffa500;
+  font-weight: bold;
+}
+
+.country p {
+  color: gray;
+}
+
+.graphbutton {
+  padding: 2rem 0 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+.graphbutton button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+.graph h5 {
+  font-size: 1rem;
+}
+
+.graphbutton h5 {
+  padding-top: 1rem;
+}
+
+.graph {
+  background-color: rgb(240, 240, 240);
+  padding: 2rem 0;
+}
+
+.percent {
+  height: 1.6rem;
+
+  background-color: #ffa500;
+}
+
+.fh {
+  overflow: hidden;
+}
+
+.bar {
+  background-color: #ffa500;
+}
+
+.graphbar {
+  background-color: rgb(232, 223, 223);
+}

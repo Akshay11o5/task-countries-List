@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Countries data -machin test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header text-center">
+      <div class="mainTitle">
+        <h2>World Countries Data</h2>
+        <p>Currently, we have 250 countries</p>
+        <span id="comment"></span>
+      </div>
+    </header>
+    <div class="main">
+      <div class="controls">
+        <input
+          class="form-control search-input"
+          type="text"
+          id="search"
+          value=""
+          placeholder="Search countries by Name, City and language"
+        />
+        <div class="buttons">
+          <div class="name">
+            <button type="button" class="name" id="btnName">
+              NAME <i class="fa-solid fa-arrow-down-long"></i>
+            </button>
+          </div>
+          <div class="capital">
+            <button type="button" class="capital" id="btnCap">
+              CAPITAL <i class="fa-solid fa-arrow-down-long d-none"></i>
+            </button>
+          </div>
+          <div class="population">
+            <button type="button" class="population" id="btnPop">
+              POPULATION <i class="fa-solid fa-arrow-down-long d-none"></i>
+            </button>
+          </div>
+          <a href="#stats" class="stats">
+            <i class="fas fa-chart-bar"></i>
+          </a>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row" id="cardInfo">
+          <div class="col-lg-2">
+            <!-- <div class="card country">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+                class="card-img-top shadow"
+                alt="Flag"
+                title="Flag"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">AFGHANISTAN</h5>
+                <div class="card-text">
+                  <p class=" mb-0"><span class="font-weight-bold">Capital: </span>Kabul</p>
+                  <p class=" mb-0"><span class="font-weight-bold">Languages: </span>Pashto, Uzbek, Turkmen</p>
+                  <p class=" mb-0"><span class="font-weight-bold">Population: </span>38,928,341</p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="graphbutton">
+        <button type="button" class="btn btn-warning" id="Populationbtn">
+          Population
+        </button>
+        <button type="button" class="btn btn-warning" id="languagesbtn">
+          languages
+        </button>
+        <h5>10 Most population countries in the World</h5>
+      </div>
+    </div>
+    <div class="graph" id="stats">
+      <div class="container" id="dataContainer">
+        <!-- <div class="row">
+          <div class="col-md-2"><h5>World</h5></div>
+          <div class="col-md-8">
+            <div class="graphbar">
+              <h5><div class="percent" style="width: 100%"></div></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h5 class="countPopulation">countPopulation</h5>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="./assets/js/countries.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
